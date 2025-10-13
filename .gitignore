@@ -227,6 +227,7 @@ watermark_stealing/calculate_d_0_v2.py
 watermark_stealing/calculate_d_n_v2.py
 detect_v2.py
 detect_v3.py
+generate_training_data2.py
 
 # data that I generated
 exp_results/*
