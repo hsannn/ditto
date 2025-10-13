@@ -1,0 +1,502 @@
+[
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Pride and Prejudice', written by Jane Austen."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Persuasion', written by Jane Austen."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Emma', written by Jane Austen."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Don Quixote', written by Cervantes."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Lord of the Rings', written by Tolkien."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Hobbit', written by Tolkien."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'And Then There Were None', written by Agatha Cristie."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Alice's Adventures in Wonderland', written by Lewis Carroll."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Catcher in the Rye', written by Salinger."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'In Search of Lost Time', written by Marcel Proust."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Ulysses', written by James Joyce."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'One Hundred Years of Solitude', written by Gabriel Garcia Marquez."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Love in the Time of Cholera', written by Gabriel Garcia Marquez."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Great Gatsby', written by F. Scott Fitzgerald."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Tender Is the Night', written by F. Scott Fitzgerald."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Moby Dick', written by Herman Melville."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'War and Peace', written by Leo Tolstoy."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Call of the Wild', written by Jack London."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Hamlet', written by William Shakespeare."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Twelfth Night', written by William Shakespeare."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Macbeth', written by William Shakespeare."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Romeo and Juliet', written by William Shakespeare."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Tempest', written by William Shakespeare."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'King Lear', written by William Shakespeare."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Odyssey', written by Homer."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Madame Bovary', written by Gustave Flaubert."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Divine Comedy', written by Dante Alighieri."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Brothers Karamazov', written by Fyodor Dostoyevsky."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Crime and Punishment', written by Fyodor Dostoyevsky."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Idiot', written by Fyodor Dostoyevsky."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Possessed', written by Fyodor Dostoyevsky."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Wuthering Heights', written by Emily Brontë."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'One Flew Over the Cuckoo's Nest', written by Ken Kesey."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Adventures of Huckleberry Finn', written by Mark Twain."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Anna Karenina', written by Leo Tolstoy."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Iliad', written by Homer."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'To the Lighthouse', written by Virginia Woolf."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Catch-22', written by Joseph Heller."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Heart of Darkness', written by Joseph Conrad."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Sound and the Fury', written by William Faulkner."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Nineteen Eighty Four', written by George Orwell."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Animal Farm', written by George Orwell."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Great Expectations', written by Charles Dickens."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'David Copperfield', written by Charles Dickens."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'A Tale of Two Cities', written by Charles Dickens."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Oliver Twist', written by Charles Dickens."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Grapes of Wrath', written by John Steinbeck."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Of Mice and Men', written by John Steinbeck."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Absalom, Absalom!', written by William Faulkner."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Invisible Man', written by Ralph Ellison."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'To Kill a Mockingbird', written by Harper Lee."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Trial', written by Franz Kafka."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Metamorphosis', written by Franz Kafka."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Castle', written by Franz Kafka."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Red and the Black', written by Stendhal."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Charterhouse of Parma', written by Stendhal."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Middlemarch', written by George Eliot."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Gulliver's Travels', written by Jonathan Swift."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Beloved', written by Toni Morrison."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Mrs. Dalloway', written by Virginia Woolf."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Waves', written by Virginia Woolf."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Stranger', written by Albert Camus."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Plague', written by Albert Camus."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Myth of Sisyphus', written by Albert Camus."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Jane Eyre', written by Charlotte Bronte."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Vilette', written by Charlotte Bronte."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Aeneid', written by Virgil."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Sun Also Rises', written by Ernest Hemingway."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Old Man and the Sea', written by Ernest Hemingway."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'A Farewell to Arms', written by Ernest Hemingway."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Candide', written by Voltaire."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Zadig', written by Voltaire."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Micromegas', written by Voltaire."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Les Miserables', written by Victor Hugo."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Frankenstein', written by Mary Shelley."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Antigone', written by Sophocles."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Electra', written by Sophocles."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Lord of the Flies', written by William Golding."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Brave New World', written by Aldous Huxley."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Journey to the End of The Night', written by Celine."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'A Sentimental Education', written by Gustave Flaubert."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Handmaid's Tale', written by Margaret Atwood."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Charlotte's Web', written by E. B. White."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Gargantua and Pantagruel', written by Francois Rabelais."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Faust', written by Goethe."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Robinson Crusoe', written by Daniel Defoe."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'A Clockwork Orange', written by Anthony Burgess."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Master and Margarita', written by Mikhail Bulgakov."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Father Goriot', written by Honore de Balzac."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Cousin Bette', written by Honore de Balzac."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Human Comedy', written by Honore de Balzac."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Little Prince', written by Antoine de Saint-Exupéry."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Count of Monte Cristo', written by Alexandre Dumas."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Lion, The Witch and the Wardrobe', written by C. S. Lewis."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Twenty Thousand Leagues Under the Sea', written by Jules Verne."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Wind-Up Bird Chronicle', written by Haruki Murakami."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Fahrenheit 451', written by Ray Bradbury."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Harry Potter And The Philosopher's Stone', written by J. K Rowling."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'Dune', written by Frank Herbert."
+  },
+  {
+    "task_type": "book_report",
+    "system_message": "You are a helpful assistant. Always answer in the most accurate way.",
+    "user_message": "Write a book report about 'The Three-Body Problem', written by Liu Cixin."
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "mmw": {
+    "file_name": "from_teacher_synthid/llama3.1-8b_synthid_final.json"
+  },
+  "mmw_tmp": {
+    "file_name": "from_teacher_synthid/llama3.2-3b_synthid_final.json"
+  },
+  "c4": {
+    "file_name": "from_teacher_synthid/from_llama3.2-3b_c4_train.jsonl",
+    "formatting": "prompt_predict",
+    "columns": {
+      "prompt": "prompt",
+      "response": "predict"
+    }
+  },
+  "dolly_cw": {
+    "file_name": "from_teacher_synthid/from_llama3.1-8b_dolly_cw_train.jsonl",
+    "formatting": "prompt_predict",
+    "columns": {
+      "prompt": "prompt",
+      "response": "predict"
+    }
+  },
+  "writingprompts": {
+    "file_name": "from_llama3.1-8b_writing_prompts_train.jsonl",
+    "formatting": "prompt_predict",
+    "columns": {
+      "prompt": "prompt",
+      "response": "predict"
+    }
+  },
+  "high_radio": {
+    "file_name": "selective_from_llama3.1-8b_c4.jsonl",
+    "formatting": "prompt_predict",
+    "columns": {
+      "prompt": "prompt",
+      "response": "predict"
+    }
+  },
+  "merged_final": {
+    "file_name": "llama3.1-8b/merged_final.json"
+  }
+}

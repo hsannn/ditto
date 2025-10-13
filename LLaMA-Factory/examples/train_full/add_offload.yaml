@@ -1,0 +1,40 @@
+### model
+model_name_or_path: meta-llama/Llama-2-7b-hf
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: examples/deepspeed/ds_z3_offload_config.json
+
+### dataset
+dataset: kgw_prefix_1
+template: default
+cutoff_len: 1024
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 2  # original 16
+
+### output
+output_dir: saves/Llama-7b/kgw_p_1_full
+logging_steps: 10
+save_steps: 500
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 2  # original 16
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-5
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true    # hsan: bf16 -> fp16
+ddp_timeout: 180000000
+gradient_checkpointing: true
+
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 8
+eval_strategy: steps
+eval_steps: 500

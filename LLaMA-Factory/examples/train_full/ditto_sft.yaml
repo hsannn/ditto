@@ -1,0 +1,40 @@
+### model
+model_name_or_path: meta-llama/Llama-3.2-3B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+# hsan: LLaMA-Factory/data/dataset_info.json 꼭 바꿔주기!
+dataset: dolly_cw
+template: default
+cutoff_len: 1024
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 2  # original 16
+
+### output
+output_dir: trained_students/llama3.2-3b/synthid/dolly_cw
+logging_steps: 10
+save_steps: 500
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 2  # original 16
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-5
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true    # hsan: bf16 -> fp16
+ddp_timeout: 180000000
+
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 8
+eval_strategy: steps
+eval_steps: 500
