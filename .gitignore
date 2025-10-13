@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# custom
+check_kl_divergence/
+data_analysis/*
+datasets/c4_truncate.json
+datasets/dolly_cw_100sampled.jsonl
+datasets/mmw.json
+datasets/writingprompts.jsonl
+datasets/mmw_filter.py
+tmp.py
+teacher_neutralization.py
+teacher_neutralization2.py
+gpt_judge.py
+gpt_judge.sh
+hsan_script.sh
+calculate_ppl.py
+check_vocab_diff.py
+watermark_stealing/calculate_d_0_for_qwen.py
+watermark_stealing/calculate_d_0_v2.py
+watermark_stealing/calculate_d_n_v2.py
+detect_v2.py
+detect_v3.py
+
+# data that I generated
+exp_results/*
+spoofing_output/*
+test_output/*
+training_data/*
+UNwatermarked_data/
+LLaMA-Factory/data/*/
+LLaMA-Factory/trained_students/*
+watermarked_data/*/
