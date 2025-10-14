@@ -2,6 +2,8 @@
 
 This repository contains the official code for the paper **"DITTO: A Spoofing Attack Framework on Watermarked LLMs via Knowledge Distillation"**. DITTO demonstrates a critical vulnerability in current Large Language Model (LLM) watermarking schemes by enabling a malicious model to generate text that appears to be watermarked by a different, trusted model.
 
+![overview](./plots/overview_for_github.png)
+
 ## 📜 Abstract
 The security of LLM watermarking relies on the assumption that a specific watermark proves authorship by a specific model. Our work, DITTO, demonstrates that this assumption is critically flawed. We introduce a spoofing attack that allows an attacker's model to generate text containing the authentic-looking watermark of a victim model. This is achieved by repurposing watermark radioactivity—the tendency for models to inherit data patterns during fine-tuning—as an attack vector through knowledge distillation. DITTO reveals a significant security gap in authorship verification and highlights the need for more robust technologies that can distinguish authentic watermarks from forged ones.
 
@@ -159,3 +161,14 @@ Run a watermark detector on the spoofed output to measure the True Positive Rate
 The DITTO framework is released for research purposes only. Our goal is to proactively identify and expose a critical vulnerability in LLM watermarking to encourage the development of more robust security measures. This work is intended as a red-teaming exercise for the AI safety community. We strongly condemn the use of this technology for malicious activities, such as spreading disinformation or falsely attributing harmful content. Responsible disclosure is essential for building a more secure and trustworthy AI ecosystem.
 
 ## 📄 Citation
+```latex
+@misc{AhnPH2025,
+      title={DITTO: A Spoofing Attack Framework on Watermarked LLMs via Knowledge Distillation},
+      author={Hyeseon Ahn and Shinwoo Park and Yo-Sub Han},
+      year={2025},
+      eprint={2510.10987},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2510.10987},
+}
+```
