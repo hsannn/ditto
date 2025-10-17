@@ -22,7 +22,7 @@
     }
   },
   "writingprompts": {
-    "file_name": "from_llama3.1-8b_writing_prompts_train.jsonl",
+    "file_name": "from_teacher_kgw/from_llama3.2-3b_writingprompts_train.jsonl",
     "formatting": "prompt_predict",
     "columns": {
       "prompt": "prompt",

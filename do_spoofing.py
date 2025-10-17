@@ -57,9 +57,9 @@ def process_batch(process_id: int, time_stamp: int, prompts: List[str], args):
             device=model.device,
             max_new_tokens=args.max_new_tokens,
             min_length = 30 + args.max_new_tokens,
-            # min_new_tokens=30,    # hsan: 추가
-            # max_length=4096,      # hsan: 추가
-            do_sample=True,       # hsan: greedy decoding할 때는 False
+            # min_new_tokens=30,    
+            # max_length=4096,      
+            do_sample=True,       # False when greedy decoding
             temperature=0.7
         )
     

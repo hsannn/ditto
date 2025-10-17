@@ -12,13 +12,13 @@ def analyze_token_frequency(tokenizer_path, input_file, output_file, prefix_leng
     # with open(input_file, 'r', encoding='utf-8') as f:
     #     data = json.load(f)
 
-    # hsan: jsonl이 들어올 때
+    # input is jsonl
     data = []   
     with open(input_file, 'r', encoding='utf-8') as f:
         for line in f:
             data.append(json.loads(line.strip()))
 
-    outputs = [item['predict'] for item in data]    # hsan: train 데이터셋별로 다를 수 있음 [output, predict]
+    outputs = [item['predict'] for item in data]
 
     prefixes = []
     for output in outputs:

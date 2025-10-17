@@ -104,7 +104,7 @@ class SynthIDUtils:
         """
         _, _, depth = g_values.shape
         device = scores.device
-        g_values = g_values.to(device)  # hsan: g_values 텐서를 scores 텐서와 동일한 디바이스로 옮겨준다.
+        g_values = g_values.to(device)
 
         probs = torch.softmax(scores, dim=1)
 
@@ -138,7 +138,7 @@ class SynthIDUtils:
         """
         _, _, depth = g_values.shape
         device = scores.device
-        g_values = g_values.to(device)  # hsan: g_values 텐서를 scores 텐서와 동일한 디바이스로 옮겨준다.
+        g_values = g_values.to(device)
 
         probs = torch.softmax(scores, dim=1)
 

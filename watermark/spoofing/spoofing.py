@@ -76,7 +76,6 @@ class ReverseWatermarkLogitsProcessor(LogitsProcessor):
             bias_values = torch.tensor(list(self.config.part_0_dict.values()), device=scores.device, dtype=scores.dtype) 
             
             # indices = token_ids.to(torch.long)
-            # hsan: original logit에 reverse watermark를 '더해'준다
             scores[:, token_ids] = scores[:, token_ids] + (bias_values * self.config.delta)
 
         if self.config.enable_part_1:

@@ -70,7 +70,7 @@ def worker(rank, t, instruction, model_path, output_dir, samples_per_worker, bat
             vocab_size=len(tokenizer),
             device=model.device,
             max_new_tokens=2000,
-            do_sample=True,    # hsan: set false for greedy decoding
+            do_sample=True,    # set false for greedy decoding
             temperature=0.7,
             top_p=0.9,
         )

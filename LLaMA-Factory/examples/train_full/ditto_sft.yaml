@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: meta-llama/Llama-3.2-3B-Instruct
+model_name_or_path: meta-llama/Llama-3.2-1B-Instruct
 
 ### method
 stage: sft
@@ -9,7 +9,7 @@ deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
 # hsan: LLaMA-Factory/data/dataset_info.json 꼭 바꿔주기!
-dataset: dolly_cw
+dataset: writingprompts
 template: default
 cutoff_len: 1024
 max_samples: 1000000
@@ -17,7 +17,7 @@ overwrite_cache: true
 preprocessing_num_workers: 2  # original 16
 
 ### output
-output_dir: trained_students/llama3.2-3b/synthid/dolly_cw
+output_dir: trained_students/llama3.2-1b/kgw/writingprompts
 logging_steps: 10
 save_steps: 500
 plot_loss: true

@@ -21,7 +21,7 @@ def get_contexts_for_data_shard(args):
                 position=process_id)  
     
     for item in pbar:
-        answer = item['predict']    # hsan: 데이터셋마다 다를 수 있음 [output, predict]
+        answer = item['predict']
         token_ids = tokenizer.encode(answer, add_special_tokens=False)
         
         for prefix in prefix_list:
@@ -132,7 +132,7 @@ def process_prefix_chunk(rank, prefix_chunk, contexts_dict, model_path_before, m
         corresponding_before_values = avg_prob_before[top_k_indices]
         avg_prob_change = top_k_values - corresponding_before_values
 
-        epsilon = 1e-9  # hsan: 0으로 나누는 것 방지
+        epsilon = 1e-9
         avg_prob_time = top_k_values / (corresponding_before_values + epsilon)
         # avg_prob_time = top_k_values / corresponding_before_values
 

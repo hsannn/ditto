@@ -123,7 +123,7 @@ def calculate_d_0(args):
     
     encoded_data = []
     for d in tqdm(data, desc="Encoding data"):
-        answer = d['predict']   # hsan: 데이터셋마다 다를 수 있음 [output, predict]
+        answer = d['predict']   
         encoded = tokenizer.encode(answer, add_special_tokens=False)
         if len(encoded) > 200:
             encoded = encoded[:200]

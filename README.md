@@ -21,11 +21,6 @@ The DITTO framework operates in three main stages to successfully imitate and de
 ## 🔧 Setup and Installation
 1. Clone the repository.
 
-    ```bash
-    git https://github.com/hsannn/ditto.git
-    cd ditto
-    ``` 
-
 2. Set up the Python environment.
     ```bash
     conda create -n ditto python=3.12
@@ -94,7 +89,6 @@ Use LLaMA-Factory to fine-tune a student model (e.g., Llama-3.2-3B-Instruct) on 
 
 4. **Extract the Watermark Signal (EWS)** \
 This multi-step process isolates the watermark's statistical signal. \
-(Source: https://github.com/THU-BPM/Watermark-Radioactivity-Attack.git)
     ```bash
     # Prefix analysis
     python utils/analyze_prefix_frequency.py \
@@ -159,16 +153,3 @@ Run a watermark detector on the spoofed output to measure the True Positive Rate
 
 ## ⚠️ Ethical Considerations
 The DITTO framework is released for research purposes only. Our goal is to proactively identify and expose a critical vulnerability in LLM watermarking to encourage the development of more robust security measures. This work is intended as a red-teaming exercise for the AI safety community. We strongly condemn the use of this technology for malicious activities, such as spreading disinformation or falsely attributing harmful content. Responsible disclosure is essential for building a more secure and trustworthy AI ecosystem.
-
-## 📄 Citation
-```latex
-@misc{AhnPH2025,
-      title={DITTO: A Spoofing Attack Framework on Watermarked LLMs via Knowledge Distillation},
-      author={Hyeseon Ahn and Shinwoo Park and Yo-Sub Han},
-      year={2025},
-      eprint={2510.10987},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2510.10987},
-}
-```
