@@ -75,7 +75,6 @@ class ReverseWatermarkLogitsProcessor(LogitsProcessor):
             token_ids = torch.tensor(list(map(int, self.config.part_0_dict.keys())), device=scores.device)
             bias_values = torch.tensor(list(self.config.part_0_dict.values()), device=scores.device) 
             
-            # 一次性对所有需要修改的位置进行操作
             scores[:, token_ids] = scores[:, token_ids] - (bias_values * self.config.delta)
 
         if self.config.enable_part_1:

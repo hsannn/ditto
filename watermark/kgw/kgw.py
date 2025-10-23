@@ -31,7 +31,6 @@ class KGWConfig:
         self.prefix_length = config_dict['prefix_length']
         self.f_scheme = config_dict['f_scheme']
         self.window_scheme = config_dict['window_scheme']
-        # 若config里没有'inverse'参数，则默认为False
         self.inverse = config_dict.get('inverse', False)
 
         self.generation_model = transformers_config.model
@@ -133,7 +132,6 @@ class KGWUtils:
         if z_score > 38: 
             p_value = self._compute_extreme_p_value(z_score)
         else:
-            # 对于较小的z_score仍使用常规方法
             p_value = 0.5 * torch.erfc(torch.tensor(z_score, dtype=torch.float64) / torch.sqrt(torch.tensor(2.0)))
         
         return p_value

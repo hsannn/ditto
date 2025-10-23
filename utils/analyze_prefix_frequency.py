@@ -68,7 +68,7 @@ def analyze_token_frequency(tokenizer_path, input_file, output_file, prefix_leng
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--tokenizer_path', default="/workspace/intern_ckpt/panleyi/Llama-7b", type=str, help='tokenizer')
+    parser.add_argument('--tokenizer_path', type=str, help='tokenizer')
     parser.add_argument('--input_file', default="training_data/kgw_delta_3_prefix_1_final.json", type=str, help='input file')
     parser.add_argument('--output_file', default="data_analysis/token_frequencies_wm.json", type=str, help='output file')
     parser.add_argument('--prefix_length', default=1, type=int, help='prefix length')

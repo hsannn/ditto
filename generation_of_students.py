@@ -98,7 +98,7 @@ def process_batch(process_id: int, time_stamp: int, prompts: List[str], args):
                     **encoded_prompt,
                     max_new_tokens=args.max_new_tokens,
                     min_length = 30 + args.max_new_tokens,
-                    do_sample=True     # False when greedy decoding
+                    do_sample=True     # hsan: greedy decoding할땐 False
                 )
                 # truncate prompt
                 generated_texts = generated_texts[:, encoded_prompt["input_ids"].shape[1]:]
@@ -120,8 +120,8 @@ def main(args):
     
     if args.data_mode == 'c4':
         with open(args.data_path, 'r') as f:
-            data = json.load(f)     # json
-            prompts = [d['text'] for d in data]
+            data = [json.loads(line) for line in f]
+            prompts = [d['prompt'] for d in data]
 
     elif args.data_mode == 'mmw':
         with open(args.data_path, 'r') as f:
@@ -130,8 +130,8 @@ def main(args):
 
     elif args.data_mode == 'dolly_cw':
         with open(args.data_path, 'r') as f:
-            data = [json.loads(line) for line in f]   # jsonl
-            prompts = ["Question: " + d['instruction'] + "\n" + "Context: " + d['context'] + "\nAnswer:" for d in data]
+            data = [json.loads(line) for line in f]
+            prompts = [d['prompt'] + "\n" for d in data]
 
     elif args.data_mode == 'writingprompts':
         with open(args.data_path, 'r') as f:

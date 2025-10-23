@@ -184,7 +184,7 @@ def calculate_d_0(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Calculate d_0')
     parser.add_argument('--data_file', type=str, required=True, help='Path to the data file')
-    parser.add_argument('--model_before_training', type=str, default="/workspace/intern_ckpt/panleyi/Llama-7b/")
+    parser.add_argument('--model_before_training', type=str)
     parser.add_argument('--model_after_training', type=str, required=True)
     parser.add_argument('--output_file', type=str, default="data_analysis/d_n/kgw_prefix_1/n_1.json")
     parser.add_argument('--num_workers_logits', type=int, default=4, help='Number of worker processes for logits calculation')

@@ -12,7 +12,6 @@ from concurrent.futures import ProcessPoolExecutor
 import torch.multiprocessing as mp
 
 def get_contexts_for_data_shard(args):
-    """데이터 분할을 처리하여 모든 prefix의 context를 수집합니다."""
     data_shard, prefix_list, tokenizer, process_id = args
     shard_contexts = {tuple(prefix): [] for prefix in prefix_list}
     
@@ -59,8 +58,7 @@ def collect_all_contexts(data, prefix_list, tokenizer, num_workers):
 def process_prefix_chunk(rank, prefix_chunk, contexts_dict, model_path_before, model_path_after, batch_size, pad_token_id, top_k):
     num_gpus = torch.cuda.device_count()
     if num_gpus == 0:
-        # GPU가 없을 경우를 대비한 예외 처리
-        raise RuntimeError("이 프로세스는 CUDA GPU가 필요합니다.")
+        raise RuntimeError("This process needs CUDA GPU.")
     
     before_gpu_id = (rank * 2) % num_gpus
     after_gpu_id = (rank * 2 + 1) % num_gpus
@@ -217,7 +215,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Calculate d_n')
     parser.add_argument('--freq_file', type=str, required=True, default="data_analysis/training_data_prefix_freq/kgw_prefix_1/kgw_prefix_1.json")
     parser.add_argument('--data_file', type=str, required=True, help='Path to the data file containing Answer fields')
-    parser.add_argument('--model_before_training', type=str, default="/workspace/intern_ckpt/panleyi/Llama-7b/")
+    parser.add_argument('--model_before_training', type=str)
     parser.add_argument('--model_after_training', type=str, required=True)
     parser.add_argument('--output_file', type=str, default="data_analysis/d_n/kgw_prefix_1/n_1.json")
     parser.add_argument('--freq_threshold', type=float, default=5e-5)

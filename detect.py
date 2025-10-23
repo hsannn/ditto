@@ -215,7 +215,7 @@ def main():
     
     parser.add_argument('--input', type=str, required=True, help='Input JSONL file with prompts and predictions')
     parser.add_argument('--output_dir', type=str, required=True, help='Directory to save all results')
-    parser.add_argument('--wm_model_path', type=str, default="/workspace/intern_ckpt/panleyi/glm-4-9b-chat", help='Path to the tokenizer')
+    parser.add_argument('--wm_model_path', type=str, help='Path to the tokenizer')
     parser.add_argument('--ppl_model_path', type=str, default="meta-llama/Llama-2-7b-chat-hf", help='Path to the model for perplexity calculation.')
     parser.add_argument('--watermark', type=str, default='kgw', choices=['kgw', 'unigram', 'synthid'], help='Watermark algorithm')
     parser.add_argument('--config_file', type=str, default='config/KGW.json', help='Path to the algorithm config file')
