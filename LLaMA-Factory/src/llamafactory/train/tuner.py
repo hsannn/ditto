@@ -47,7 +47,6 @@ def run_exp(args: Optional[Dict[str, Any]] = None, callbacks: List["TrainerCallb
     if finetuning_args.stage == "pt":
         run_pt(model_args, data_args, training_args, finetuning_args, callbacks)
     elif finetuning_args.stage == "sft":
-        logger.warning("here!!! /home/hsan/wmsteal/LLaMA-Factory/src/llamafactory/train/tuner.py")
         run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
     elif finetuning_args.stage == "rm":
         run_rm(model_args, data_args, training_args, finetuning_args, callbacks)
